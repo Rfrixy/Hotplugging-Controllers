@@ -12,7 +12,7 @@ Your code which uses joystick 1 as the input won't work anymore.
 
 HOW?
 
-This code will keep track of which number is assigned to which joystick in the array joys.
+Create a script called InputManager.cs in your project and replace its code with the code in InputManager.cs from the repository. Its code will keep track of which number is assigned to which joystick in the array joys.
 So for using this number, instead of writing 
 "joystick 1 button 0"
 get a reference to the input manager and use
